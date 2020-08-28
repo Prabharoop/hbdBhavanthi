@@ -45,7 +45,7 @@ class Birthday {
 
     update(delta) {
         ctx.globalCompositeOperation = 'hard-light'
-        ctx.fillStyle = `rgba(0, 102, 255,${7 * delta})`
+        ctx.fillStyle = `rgba(51, 102, 255,${7 * delta})`
         ctx.fillRect(0, 0, this.width, this.height)
 
         ctx.globalCompositeOperation = 'lighter'
